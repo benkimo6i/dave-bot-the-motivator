@@ -15,7 +15,7 @@ app.listen(port, function(){
 app.post('/hello', function(req, res, next) {
 	var userName = req.body.user_name;
 	var botPayload = {
-		text: 'Just do it, ' + userName
+		text: "Even during times of extreme struggle, these 3 months in WDI have been a lot of fun, and I couldn't have asked for a better cohort to share this experience with. You're all amazing, and talented, and I'm excited to see where you end up next (except for Ben, as he will assuredly lose contact with us all by mid-to-late September). May Jibbers be with you always, " + userName + ". - Dave"
 	};
 
 	if (userName !== 'slackbot') {
