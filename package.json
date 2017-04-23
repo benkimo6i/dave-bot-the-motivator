@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Benjamin Kim",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "body-parser": "1.17.1",
-    "express": "4.15.2",
+  	"express": "^4.x.x",
+    "body-parser": "^1.x.x",
     "request": "2.56.x"
   }
 }
